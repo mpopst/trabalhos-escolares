@@ -1,0 +1,5 @@
+select distinct product_cd from account;
+select open_date from account where open_date<2002-01-01;
+SELECT MAX(avail_balance) from account;
+select AVG(pending_balance) from account;
+select AVG(pending_balance) from account where pending_balance<500;
