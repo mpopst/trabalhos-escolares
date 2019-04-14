@@ -1,0 +1,18 @@
+
+Sites permitidos
+
+- http://clhs.lisp.se/Front/index.htm
+- http://cl-cookbook.sourceforge.net/
+- http://www.gigamonkeys.com/book/
+
+Observações:
+
+1. Este arquivo deve ser EXECUTAVEL, não deixe o arquivo inválido
+   sob pena de perda de pontos.
+
+2. Complete com seu nome completo e email usado na lista da turma.
+
+3. Complete os códigos abaixo, não altere nomes das função aqui
+   definidas. Mas vc pode criar funções auxiliares, desde que seus
+   nomes não conflitem com os nomes das funções definidas aqui.
+

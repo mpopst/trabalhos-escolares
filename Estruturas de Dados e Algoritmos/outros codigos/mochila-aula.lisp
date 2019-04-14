@@ -1,0 +1,15 @@
+(ql:quickload :cl-ppcre)
+
+(defun read-file (file)
+  (with-open-file (stream file)
+    (read-line stream nil nil)
+    (let* ((line     (cl-ppcre:split " " (read-line stream nil nil)))
+	   (capacity (parse-integer (car line)))
+	   (items    (parse-integer (cadr line)))
+	   (data     (make-array '(items 2) :initial-element nil)))
+      (dotimes (v items)
+	  destructuring-bind (v w)
+	( (cl-ppcre:split " " (read-line stream nil nil)))
+	(setf (aref data 1 ?
+	      (aref v 2) ?))) 
+    )) 
